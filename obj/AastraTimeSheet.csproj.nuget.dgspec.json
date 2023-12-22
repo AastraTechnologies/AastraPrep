@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AastraRepo1\\AastraPeople\\AastraTimeSheet\\AastraTimeSheet.csproj": {}
+    "D:\\AastraPrep\\AastraTimeSheet.csproj": {}
   },
   "projects": {
-    "D:\\AastraRepo1\\AastraPeople\\AastraTimeSheet\\AastraTimeSheet.csproj": {
+    "D:\\AastraPrep\\AastraTimeSheet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AastraRepo1\\AastraPeople\\AastraTimeSheet\\AastraTimeSheet.csproj",
+        "projectUniqueName": "D:\\AastraPrep\\AastraTimeSheet.csproj",
         "projectName": "AastraTimeSheet",
-        "projectPath": "D:\\AastraRepo1\\AastraPeople\\AastraTimeSheet\\AastraTimeSheet.csproj",
+        "projectPath": "D:\\AastraPrep\\AastraTimeSheet.csproj",
         "packagesPath": "C:\\Users\\manim\\.nuget\\packages\\",
-        "outputPath": "D:\\AastraRepo1\\AastraPeople\\AastraTimeSheet\\obj\\",
+        "outputPath": "D:\\AastraPrep\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,6 +38,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {

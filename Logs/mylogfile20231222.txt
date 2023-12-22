@@ -119,3 +119,84 @@ System.InvalidOperationException: The view 'Index' was not found. The following 
 2023-12-22 14:00:29.327 +05:30 [INF] Executed action AastraTimeSheet.Controllers.HomeController.ProcessFile (AastraTimeSheet) in 20.4073ms
 2023-12-22 14:00:29.327 +05:30 [INF] Executed endpoint 'AastraTimeSheet.Controllers.HomeController.ProcessFile (AastraTimeSheet)'
 2023-12-22 14:00:29.331 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7159/Home/ProcessFile - 200 4799 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 58.038ms
+2023-12-22 15:58:09.791 +05:30 [INF] User profile is available. Using 'C:\Users\manim\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 15:58:10.029 +05:30 [INF] Now listening on: https://localhost:7159
+2023-12-22 15:58:10.029 +05:30 [INF] Now listening on: http://localhost:5026
+2023-12-22 15:58:10.030 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 15:58:10.031 +05:30 [INF] Hosting environment: Development
+2023-12-22 15:58:10.031 +05:30 [INF] Content root path: D:\AastraPrep
+2023-12-22 15:58:10.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/ - null null
+2023-12-22 15:58:10.776 +05:30 [INF] Executing endpoint 'AastraTimeSheet.Controllers.HomeController.Index (AastraTimeSheet)'
+2023-12-22 15:58:10.835 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AastraTimeSheet.Controllers.HomeController (AastraTimeSheet).
+2023-12-22 15:58:10.841 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-22 15:58:10.843 +05:30 [ERR] The view 'Index' was not found. Searched locations: ["/Views/Home/Index.cshtml","/Views/Shared/Index.cshtml"]
+2023-12-22 15:58:10.851 +05:30 [INF] Executed action AastraTimeSheet.Controllers.HomeController.Index (AastraTimeSheet) in 13.2493ms
+2023-12-22 15:58:10.854 +05:30 [INF] Executed endpoint 'AastraTimeSheet.Controllers.HomeController.Index (AastraTimeSheet)'
+2023-12-22 15:58:10.856 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Home/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 15:58:11.026 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/ - 500 null text/html; charset=utf-8 298.4624ms
+2023-12-22 15:58:11.045 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/_vs/browserLink - null null
+2023-12-22 15:58:11.045 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 15:58:11.059 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 12.7973ms
+2023-12-22 15:58:11.089 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.3151ms
+2023-12-22 16:00:11.423 +05:30 [INF] User profile is available. Using 'C:\Users\manim\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 16:00:11.618 +05:30 [INF] Now listening on: https://localhost:7159
+2023-12-22 16:00:11.618 +05:30 [INF] Now listening on: http://localhost:5026
+2023-12-22 16:00:11.619 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 16:00:11.619 +05:30 [INF] Hosting environment: Development
+2023-12-22 16:00:11.619 +05:30 [INF] Content root path: D:\AastraPrep
+2023-12-22 16:00:14.402 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/ - null null
+2023-12-22 16:00:14.539 +05:30 [INF] Executing endpoint 'AastraTimeSheet.Controllers.HomeController.Index (AastraTimeSheet)'
+2023-12-22 16:00:14.565 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AastraTimeSheet.Controllers.HomeController (AastraTimeSheet).
+2023-12-22 16:00:14.573 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-22 16:00:14.690 +05:30 [INF] Executed ViewResult - view Index executed in 118.7915ms.
+2023-12-22 16:00:14.690 +05:30 [INF] Executed action AastraTimeSheet.Controllers.HomeController.Index (AastraTimeSheet) in 124.3538ms
+2023-12-22 16:00:14.690 +05:30 [INF] Executed endpoint 'AastraTimeSheet.Controllers.HomeController.Index (AastraTimeSheet)'
+2023-12-22 16:00:14.693 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/ - 200 null text/html; charset=utf-8 296.7781ms
+2023-12-22 16:00:14.711 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/css/bootstrap.min.css - null null
+2023-12-22 16:00:14.713 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/font-awesome.css - null null
+2023-12-22 16:00:14.713 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/css/animate.css - null null
+2023-12-22 16:00:14.713 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 16:00:14.714 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/_vs/browserLink - null null
+2023-12-22 16:00:14.714 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/css/style.css - null null
+2023-12-22 16:00:14.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7159/Aastra.png - null null
+2023-12-22 16:00:14.728 +05:30 [INF] The file /css/bootstrap.min.css was not modified
+2023-12-22 16:00:14.728 +05:30 [INF] The file /Aastra.png was not modified
+2023-12-22 16:00:14.728 +05:30 [INF] The file /css/style.css was not modified
+2023-12-22 16:00:14.728 +05:30 [INF] The file /font-awesome.css was not modified
+2023-12-22 16:00:14.728 +05:30 [INF] The file /css/animate.css was not modified
+2023-12-22 16:00:14.729 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/css/animate.css - 304 null text/css 16.2161ms
+2023-12-22 16:00:14.729 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/Aastra.png - 304 null image/png 8.9388ms
+2023-12-22 16:00:14.729 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/css/style.css - 304 null text/css 15.3679ms
+2023-12-22 16:00:14.729 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/font-awesome.css - 304 null text/css 16.6904ms
+2023-12-22 16:00:14.729 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/css/bootstrap.min.css - 304 null text/css 18.2208ms
+2023-12-22 16:00:14.755 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 41.9468ms
+2023-12-22 16:00:14.809 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7159/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.0496ms
+2023-12-22 16:00:27.265 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7159/Home/ProcessFile - multipart/form-data; boundary=----WebKitFormBoundarywGuQC9cge7JAqM0F 18931
+2023-12-22 16:00:27.272 +05:30 [INF] Executing endpoint 'AastraTimeSheet.Controllers.HomeController.ProcessFile (AastraTimeSheet)'
+2023-12-22 16:00:27.287 +05:30 [INF] Route matched with {action = "ProcessFile", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessFile(AastraTimeSheet.Models.Files) on controller AastraTimeSheet.Controllers.HomeController (AastraTimeSheet).
+2023-12-22 16:00:28.108 +05:30 [INF] Executing FileContentResult, sending file with download name 'NewFile.xlsx' ...
+2023-12-22 16:00:28.116 +05:30 [INF] Executed action AastraTimeSheet.Controllers.HomeController.ProcessFile (AastraTimeSheet) in 829.6401ms
+2023-12-22 16:00:28.116 +05:30 [INF] Executed endpoint 'AastraTimeSheet.Controllers.HomeController.ProcessFile (AastraTimeSheet)'
+2023-12-22 16:00:28.117 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7159/Home/ProcessFile - 200 4486 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 851.8418ms

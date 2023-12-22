@@ -44,7 +44,7 @@ namespace AastraTimeSheet.Services
                                                                                            // 
                         if (validEmpDict.ContainsKey(date))
                         {
-                            var record = validEmpDict[date];                   
+                            var record = validEmpDict[date];
                             worksheet.Cells[4, 1].Value = $" Consultant's Name : {record.Name}";
                             worksheet.Cells[recordIndex, 3].Value = record.StartTime;
                             worksheet.Cells[recordIndex, 4].Value = record.EndTime;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AastraTimeSheet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0cdbb1464d3ce40c7fa551359765be196bcfd25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AastraTimeSheet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AastraTimeSheet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

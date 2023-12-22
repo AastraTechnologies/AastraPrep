@@ -45,10 +45,7 @@ namespace AastraTimeSheet.Services
                         if (validEmpDict.ContainsKey(date))
                         {
                             var record = validEmpDict[date];
-                            if (recordIndex == 6)
-                            {
-                                worksheet.Cells[4, 1].Value = $" Consultant's Name : {record.Name}";
-                            }
+                            worksheet.Cells[4, 1].Value = $" Consultant's Name : {record.Name}";
                             worksheet.Cells[recordIndex, 3].Value = record.StartTime;
                             worksheet.Cells[recordIndex, 4].Value = record.EndTime;
                             worksheet.Cells[recordIndex, 5].Value = record.Hours;

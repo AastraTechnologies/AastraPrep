@@ -57,10 +57,6 @@ namespace AastraTimeSheet.Services
 
             }
 
-
-
-
-
             for (int row = 5; row <= worksheet.Dimension.End.Row; row++)
             {
                 for (int col = 1; col <= 6; col++)
